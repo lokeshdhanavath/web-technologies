@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        a{
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        img{
+            object-fit: cover;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1> 
+        <nav>
+            <a href="#about" target="_blank">About Me</a>
+            <a href="#projects" target="_blank">Projects</a>
+            <a href="#contact" target="_blank">Contact</a>
+        </nav>
+        <br>
+        <br>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="image">
+                <img src="images/profile.jpg" alt="Profile Picture" width="150px" height="170px">
+            </div>
+            <div class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Web Development</li>
+                    <li>Database Management</li>
+                    <li>Python, Java, JavaScript</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Portfolio Website</td>
+                        <td>Personal portfolio showcasing my work.</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Database Management System</td>
+                        <td>A project on efficient database handling.</td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr>
+                        <td>Currency Converter</td>
+                        <td>A project on converting currency.</td>
+                        <td>Completed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" id="name" placeholder="Enter Name" required>
+                <br>
+                    <br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" placeholder="Enter Email" required>
+                <br>
+                <br>
+                <label for="message">Message:</label>
+                <br>
+        
+                <textarea id="message" placeholder="Enter your message"></textarea>
+                <br>
+                <br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

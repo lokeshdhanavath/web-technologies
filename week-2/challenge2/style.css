@@ -1,0 +1,50 @@
+
+
+.heading {
+    font-style: inherit;
+    margin: auto;
+    text-align: center;
+}
+
+.vibgyor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 70px;
+    gap : 15px
+}
+
+.v, .i, .b, .g, .y, .o, .r {
+    width: 55px;
+    height: 100%;
+    
+}
+
+.v {
+    background-color: violet;
+}
+
+.i {
+    background-color: indigo;
+}
+
+.b {
+    background-color: blue;
+}
+
+.g {
+    background-color: green;
+}
+
+.y {
+    background-color: yellow;
+}
+
+.o {
+    background-color: orange;
+}
+
+.r {
+    background-color: red;
+}
