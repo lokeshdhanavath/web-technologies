@@ -1,0 +1,65 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+}
+
+.a4-container {
+    width: 80%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.head h1 {
+    text-align: center;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.init {
+    display: flex;
+    width: 100%;
+    gap: 285px;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.cont {
+    text-align: start;
+}
+
+.info label {
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.input-field {
+    
+    width: calc(100% - 220px);
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+}
+
+textarea.input-field {
+    resize: none;
+    height: 80px;
+    border: 1px solid black;
+    width: calc(100% - 220px);
+}
+
+.submit-btn {
+    padding: 10px;
+    border: none;
+    width: 100%;
+    margin-top: 15px;
+}
+
