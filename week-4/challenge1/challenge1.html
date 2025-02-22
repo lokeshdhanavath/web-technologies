@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Foot Ball Match</h1>
+    <div class="score">
+        <div class="teamA">
+            <b>Team A</b>
+            <p class="score" id="scoreA">0</p>
+        </div>
+        <div class="teamB">
+            <b>Team B</b>
+            <p class="score" id="scoreB">0</p>
+        </div>
+    </div>
+    <div class="btn">
+        <button >Goal by Team A</button>
+        <button >Goal by Team B</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+    <div class="timer">
+        <b id="time">0:00</b>
+        <br>
+        <br>
+        <button id="start" onclick="startTimer()">Start</button>
+    </div>
+    <div class="fouls">
+        <div class=foulA>
+        <b>Fouls of Team A </b>
+        <br>
+        <b id="foulA">0</b>
+        </div>
+        <div class="foulB">
+            <b>Fouls of Team B </b>
+            <br>
+              <b id="foulB">0</b>
+        </div>
+    </div>
+    <div class="btns">
+        <button>Foul by Team A</button>
+        <button>Foul by Team B</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
