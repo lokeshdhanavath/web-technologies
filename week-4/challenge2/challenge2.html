@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stock prices</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center; margin-top:20px ;">Stock Prices</h1>
+    <div class="stocks">
+        <div class="apple">
+            <b>Apple</b>
+            
+            <p id="Aprice">2000 $</p>
+        </div>
+        <div class="google">
+            <b>Google</b>
+            <p id="Gprice">1230 $</p>
+        </div>
+        <div class="amazon">
+            <b>Amazon</b>
+            <p id="Zprice">5000 $</p>
+        </div>
+    </div>
+    <div class="btn">
+        <button onclick="autoUpdate()">Update prices</button>
+    <button onclick="stopAutoUpdate()">stop autoUpdate</button>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
